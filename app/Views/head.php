@@ -17,6 +17,19 @@
         })(window, document, 'script', 'dataLayer', 'GTM-KN9K7MT');
     </script>
     <!-- End Google Tag Manager -->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26276509-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-29903630-1');
+    </script>
     <meta charset="UTF-8">
     <title>Sailing adventure - <?= $title ?></title>
     <meta name="description" content="<?= $description ?>">
@@ -24,6 +37,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="<?php echo base_url('favicon.ico') ?>" />
+    <meta name="robots" content="all,follow">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lightgallery.css'>
